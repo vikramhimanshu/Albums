@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C21E635B19EC812000EAFD7F /* Albums.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C21E635A19EC812000EAFD7F /* Albums.h */; };
-		C21E635D19EC812000EAFD7F /* Albums.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E635C19EC812000EAFD7F /* Albums.m */; };
 		C21E636319EC812000EAFD7F /* libAlbums.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C21E635719EC812000EAFD7F /* libAlbums.a */; };
+		C21E637519EC82CA00EAFD7F /* TDD_NetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E637419EC82CA00EAFD7F /* TDD_NetworkResponse.m */; };
+		C21E637819EC842700EAFD7F /* TDD_NetworkJSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E637719EC842700EAFD7F /* TDD_NetworkJSONHandler.m */; };
+		C21E637919EC842700EAFD7F /* TDD_NetworkJSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E637719EC842700EAFD7F /* TDD_NetworkJSONHandler.m */; };
+		C21E638019EC85B400EAFD7F /* NetworkJSONHandlerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21E637F19EC85B400EAFD7F /* NetworkJSONHandlerTestCase.swift */; };
+		C21E638119EC898500EAFD7F /* TDD_NetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E637419EC82CA00EAFD7F /* TDD_NetworkResponse.m */; };
+		C21E638319EC8A1600EAFD7F /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21E638219EC8A1600EAFD7F /* Shared.swift */; };
+		C2AD262D19EDD6F700BF9DF3 /* NSURLResponse+TDD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD262C19EDD6F700BF9DF3 /* NSURLResponse+TDD.m */; };
+		C2AD262E19EDD6F700BF9DF3 /* NSURLResponse+TDD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD262C19EDD6F700BF9DF3 /* NSURLResponse+TDD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +35,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C21E635B19EC812000EAFD7F /* Albums.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +42,17 @@
 
 /* Begin PBXFileReference section */
 		C21E635719EC812000EAFD7F /* libAlbums.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlbums.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C21E635A19EC812000EAFD7F /* Albums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Albums.h; sourceTree = "<group>"; };
-		C21E635C19EC812000EAFD7F /* Albums.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Albums.m; sourceTree = "<group>"; };
 		C21E636219EC812000EAFD7F /* AlbumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21E636819EC812000EAFD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21E637319EC82CA00EAFD7F /* TDD_NetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDD_NetworkResponse.h; sourceTree = SOURCE_ROOT; };
+		C21E637419EC82CA00EAFD7F /* TDD_NetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDD_NetworkResponse.m; sourceTree = SOURCE_ROOT; };
+		C21E637619EC842700EAFD7F /* TDD_NetworkJSONHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDD_NetworkJSONHandler.h; sourceTree = SOURCE_ROOT; };
+		C21E637719EC842700EAFD7F /* TDD_NetworkJSONHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDD_NetworkJSONHandler.m; sourceTree = SOURCE_ROOT; };
+		C21E637B19EC84AD00EAFD7F /* AlbumsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlbumsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C21E637F19EC85B400EAFD7F /* NetworkJSONHandlerTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkJSONHandlerTestCase.swift; sourceTree = "<group>"; };
+		C21E638219EC8A1600EAFD7F /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		C2AD262B19EDD6F700BF9DF3 /* NSURLResponse+TDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLResponse+TDD.h"; sourceTree = SOURCE_ROOT; };
+		C2AD262C19EDD6F700BF9DF3 /* NSURLResponse+TDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLResponse+TDD.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,8 @@
 		C21E635919EC812000EAFD7F /* Albums */ = {
 			isa = PBXGroup;
 			children = (
-				C21E635A19EC812000EAFD7F /* Albums.h */,
-				C21E635C19EC812000EAFD7F /* Albums.m */,
+				C2AD262A19EDD68900BF9DF3 /* Categories */,
+				C21E637219EC827F00EAFD7F /* Network */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -92,7 +104,9 @@
 		C21E636619EC812000EAFD7F /* AlbumsTests */ = {
 			isa = PBXGroup;
 			children = (
+				C21E637119EC822D00EAFD7F /* Network */,
 				C21E636719EC812000EAFD7F /* Supporting Files */,
+				C21E638419EC8A2700EAFD7F /* Shared */,
 			);
 			path = AlbumsTests;
 			sourceTree = "<group>";
@@ -101,8 +115,45 @@
 			isa = PBXGroup;
 			children = (
 				C21E636819EC812000EAFD7F /* Info.plist */,
+				C21E637B19EC84AD00EAFD7F /* AlbumsTests-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C21E637119EC822D00EAFD7F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C21E637F19EC85B400EAFD7F /* NetworkJSONHandlerTestCase.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C21E637219EC827F00EAFD7F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C21E637319EC82CA00EAFD7F /* TDD_NetworkResponse.h */,
+				C21E637419EC82CA00EAFD7F /* TDD_NetworkResponse.m */,
+				C21E637619EC842700EAFD7F /* TDD_NetworkJSONHandler.h */,
+				C21E637719EC842700EAFD7F /* TDD_NetworkJSONHandler.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C21E638419EC8A2700EAFD7F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C21E638219EC8A1600EAFD7F /* Shared.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		C2AD262A19EDD68900BF9DF3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD262B19EDD6F700BF9DF3 /* NSURLResponse+TDD.h */,
+				C2AD262C19EDD6F700BF9DF3 /* NSURLResponse+TDD.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21E635D19EC812000EAFD7F /* Albums.m in Sources */,
+				C2AD262D19EDD6F700BF9DF3 /* NSURLResponse+TDD.m in Sources */,
+				C21E637819EC842700EAFD7F /* TDD_NetworkJSONHandler.m in Sources */,
+				C21E637519EC82CA00EAFD7F /* TDD_NetworkResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21E638019EC85B400EAFD7F /* NetworkJSONHandlerTestCase.swift in Sources */,
+				C21E637919EC842700EAFD7F /* TDD_NetworkJSONHandler.m in Sources */,
+				C21E638319EC8A1600EAFD7F /* Shared.swift in Sources */,
+				C2AD262E19EDD6F700BF9DF3 /* NSURLResponse+TDD.m in Sources */,
+				C21E638119EC898500EAFD7F /* TDD_NetworkResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,15 +350,20 @@
 		C21E636C19EC812000EAFD7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C21E636D19EC812000EAFD7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -310,6 +373,7 @@
 		C21E636F19EC812000EAFD7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -321,12 +385,15 @@
 				INFOPLIST_FILE = AlbumsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlbumsTests/AlbumsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C21E637019EC812000EAFD7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -334,6 +401,7 @@
 				INFOPLIST_FILE = AlbumsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlbumsTests/AlbumsTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -356,6 +424,7 @@
 				C21E636D19EC812000EAFD7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C21E636E19EC812000EAFD7F /* Build configuration list for PBXNativeTarget "AlbumsTests" */ = {
 			isa = XCConfigurationList;
@@ -364,6 +433,7 @@
 				C21E637019EC812000EAFD7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
